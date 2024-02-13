@@ -1,0 +1,39 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+}
+
+.accordion {
+	width: 500px;
+}
+
+.title {
+	background: #5039cf;
+	padding: 10px 20px;
+}
+
+.content {
+	background: #6e5fc6;
+} 
+
+.single {
+	background: #6d688c;
+	padding: 10px 20px;
+	font-size: 3rem;
+	border-radius: 20px;
+	box-shadow: 0 20 20 0;
+	margin: 20px 0;
+}
+
+.multi {
+	background: #c78d21;
+	padding: 10px 20px;
+	font-size: 3rem;
+	border-radius: 20px;
+	box-shadow: 0 20 20 0;
+	margin: 20px 0;
+}
