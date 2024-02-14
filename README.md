@@ -5,4 +5,12 @@
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-![Screenshot 2024-02-13 at 8 37 09 PM](https://github.com/stevenleelawson/react-simple-apps/assets/16749135/0d2bf41a-0484-4a20-b432-7c8254df0736)
+## All in React
+
+Accordion from scratch
+
+rando color generator from scratch
+
+star rating on click or hover
+
+![Screenshot 2024-02-13 at 9 18 59 PM](https://github.com/stevenleelawson/react-simple-apps/assets/16749135/62ee67d7-ca4e-45e1-a801-16e77adaa6ef)
