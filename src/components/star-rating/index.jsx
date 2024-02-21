@@ -3,8 +3,10 @@ import { FaStar } from 'react-icons/fa';
 import './styles.css';
 
 export default function StarRating({ noOfStars = 5 }) {
-
+	// for when the user clicks on a star
 	const [ rating, setRating ] = useState(0)
+
+	// for when the user is merely hovering
 	const [ hover, setHover ] = useState(0)
 
 	function handleClick(currI) {
@@ -25,8 +27,10 @@ export default function StarRating({ noOfStars = 5 }) {
 		<div className="star-rating">
 			{
 				[...Array(noOfStars)].map((star, idx) => {
+					
 					// coz of zero index
 					idx += 1;
+
 					return <FaStar 
 					 	key={idx}
 						// class based on active state
